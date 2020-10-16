@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>FORMULARIO</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, inicial-scale=1, maximun-scale=1, minimum-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="form-register">
+              <h4>FORMULARIO DE REGISTRO</h4>
+         <fieldset>
+            <legend>INGRESA TU NOMBRE</legend>
+        <label for="Nombre">
+             <input class="controls" type="text" name="Nombre" placeholder="Nombre" size="20" maxlength="20">
+        </label>
+        </fieldset>
+        <br>
+         <fieldset>
+            <legend>INGRESA TUS APELLIDOS</legend>
+        <label for="Apellidos">
+             <input class="controls" type="text" name="Apellidos" placeholder="Apellidos" size="20" maxlength="20">
+        </label>
+        </fieldset>
+        <br>
+         <fieldset>
+            <legend>CONTRASEÑA</legend>
+        <label for="Password">
+             <input class="controls" type="password" name="password" placeholder="Contraseña">
+        </label>
+        </fieldset>
+        <br>
+         <fieldset>
+            <legend>FECHA DE REGISTRO</legend>
+        <label for="Registro">
+             <input class="controls" type="date" name="Fecha">
+        </label>
+        </fieldset>
+        <br>
+         <fieldset>
+            <legend>HORA DE REGISTRO</legend>
+        <label for="HRegistro">
+             <input class="controls" type="time" name="Hora">
+        </label>
+        </fieldset>
+        <br>
+         <fieldset>
+            <legend>SELECCION DONDE SE REGISTRA</legend>
+             CASA
+        <label for="Casa">
+             <input class="selection"  type="checkbox" value="casa"  name="casa" checked>
+            ESCUELA
+        <label for="Escuela">
+             <input class="selection" type="checkbox" value="Escuela" name="Escuela">
+            TRABAJO
+        <label for="Trabajo">
+             <input class="selection" type="checkbox" value="Trabajo" name="Trabajo">
+        </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Genero</legend>
+        <label for="genero">
+             <input class="selection" type="radio" name="Genero" value="Masculino">Masculino
+             <input class="selection" type="radio" name="Genero" value="Femenino" checked>Femenino
+        </label>
+        </fieldset>
+             <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+            <input class="botons" type="submit" value="REGISTRAR" >
+            <p><a href="#">¿Ya tengo una CUENTA?</a></p>
+        </section>          
+        
+    </body>
+
+</html>

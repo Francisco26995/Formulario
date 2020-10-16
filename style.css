@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('fondo.jpg');
+}
+
+.form-register {
+    width: 500px;
+    background:black;
+    padding: 15px;
+    margin: auto;
+    margin-top: 45px;
+    border-radius: 0px;
+    font-family: 'Arial Black';
+    color: white;
+    text-align: center;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.controls {
+    width: 380px;
+    background:  #585858;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 3px solid blue;
+    font-family: 'Tahoma';
+    font-size: 20px;
+    text-align: center;
+}
+
+.selection{
+    width: 50px;
+    background: black;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Calibri';
+    font-size: 20px;
+    text-align: center;
+}
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a{
+    color: #0101DF;
+    text-decoration: none;
+    
+}
+
+.form-register a:hover {
+    color: blue;
+    text-decoration: underline;
+    
+}
+
+.form-register .botons{
+    width: 100px;
+    background: #B18904;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium';
+}
